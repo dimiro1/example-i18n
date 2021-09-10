@@ -1,0 +1,56 @@
+{
+    "language": "en",
+    "messages": [
+        {
+            "id": "There are {Total} flowers in our garden. {Total} again",
+            "message": "There are {Total} flowers in our garden. {Total} again",
+            "translation": "There are {Total} flowers in our garden. {Total} again",
+            "placeholders": [
+                {
+                    "id": "Total",
+                    "string": "%[1]v",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "total"
+                },
+                {
+                    "id": "Total",
+                    "string": "%[1]v",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "total"
+                }
+            ]
+        },
+        {
+            "id": "You have {Problems} problems",
+            "message": "You have {Problems} problems",
+            "translation": {
+                "select": {
+                    "feature": "plural",
+                    "arg": "Problems",
+                    "cases": {
+                        "one": {
+                            "msg": "You have one problem"
+                        },
+                        "other": {
+                            "msg": "You have {Problems} problems"
+                        }
+                    }
+                }
+            },
+            "placeholders": [
+                {
+                    "id": "Problems",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "problems"
+                }
+            ]
+        }
+    ]
+}
