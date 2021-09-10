@@ -13,3 +13,29 @@ Links
 6. Ask for translations
 7. Download translations
 8. Run `gotext update -out catalog.go -lang=en,de,pt-BR` to update the `catalog.go` file.
+
+
+# Sample response
+
+`$ go run .`
+
+```txt
+There are 1,500 flowers in our garden. 1,500 again
+Existem 1.500 flores em nosso jardim. 1.500 novamente
+Você tem 0 problema
+Você tem 1 problema
+Você tem 2 problemas
+
+Du hast 0 Probleme
+Du hast ein Problem
+Du hast 2 Probleme
+
+You have 0 problems
+You have one problem
+You have 2 problems
+
+R$ 100.00
+€ 100.00
+$ 100.00
+zł 100.00
+```
